@@ -3,7 +3,7 @@ var React = require('react');
 var About = (props) => {
   return (
     <div>
-      <h3>About</h3>
+      <h1 className = 'text-center'>About</h1>
       <p>
         Hi, this is a sample app built by developer <a href = "http://www.kevynquiros.com">Kevyn Quiros</a>.
         This app was built on top of React framework as a learning task
