@@ -4,7 +4,7 @@ var React = require('react'),
 var Nav = React.createClass({
   onSearch: function(e){
     e.preventDefault();
-    alert('Not yet wired');
+    alert('Not yet wired!');
   },
   render: function(){
     return (
@@ -29,7 +29,7 @@ var Nav = React.createClass({
           <form onSubmit = {this.onSearch}>
             <ul className = 'menu'>
               <li>
-                <input type = 'search' placeholder = 'Search weather'/>
+                <input type = 'text' placeholder = 'Search weather'/>
               </li>
               <li>
                 <input type = 'submit' value = 'Get Weather' className = 'button'/>
